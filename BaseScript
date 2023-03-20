@@ -56,7 +56,7 @@ local themes = {
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
-    FreshGreen= {
+    Poop = {
         SchemeColor = Color3.fromRGB(127, 255, 0),
         Background = Color3.fromRGB(0, 100, 0),
         Header = Color3.fromRGB(85, 107, 47),
@@ -151,8 +151,8 @@ function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
-    if themeList == "FreshGreen" then
-        themeList = themeStyles.FreshGreen
+    if themeList == "Poop" then
+        themeList = themeStyles.Poop
     elseif themeList == "LightTheme" then
         themeList = themeStyles.LightTheme
     elseif themeList == "BloodTheme" then
